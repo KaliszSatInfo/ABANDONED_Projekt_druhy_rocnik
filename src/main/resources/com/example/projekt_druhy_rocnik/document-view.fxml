@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.projekt_druhy_rocnik.DocumentView"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_druhy_rocnik.DocumentController">
+   <children>
+      <Button layoutX="25.0" layoutY="14.0" mnemonicParsing="false" text="Doklad1" onAction="#onDoklad1ClickButton" />
+       <Label fx:id="test"/>
+      <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Doklad2" />
+      <Button layoutX="225.0" layoutY="14.0" mnemonicParsing="false" text="Doklad3" />
+   </children>
 </AnchorPane>
